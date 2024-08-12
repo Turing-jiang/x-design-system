@@ -229,11 +229,12 @@ html[data-theme='light'] {
 }
 
 html[data-theme='dark'] {
-  --background-color: #212a2e;
+  --background-color: #202020;
 }
 
 html,body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: var(--background-color);
 }
